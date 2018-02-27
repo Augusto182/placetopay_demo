@@ -1,3 +1,5 @@
 # placetopay_demo
 PlaceToPay Demo
-Versión desarrollo
+
+Prototipo de demostracin en vivo:
+http://plazapublica.com.co/placetopay/placetopay_demo/index.php
