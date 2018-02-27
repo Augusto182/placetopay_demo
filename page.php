@@ -1,11 +1,15 @@
 <?php
-
+/**
+ * @file
+ * Plantilla HTML5.
+ */
 ?>
 <!DOCTYPE HTML>
 
 <html>
 
 <head>
+    <?php print redireccionar(); ?>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>PlaceToPay</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -15,23 +19,20 @@
 
 <body>
 
-	<!--header>
+	<header>
+	    <h1>PlaceToPay</h1>
+	    <h3>Prototipo de pruebas</h3>
 		<nav>
 			<ul>
-				<li>Your menu</li>
+			    <li><a href="index.php">Inicio</a></li>
+				<li><a href="index.php?log">Historia</a></li>
 			</ul>
 		</nav>
-	</header-->
+	</header>
 	
 	<section>
-	
-		
+	  <?php print $html; ?>
 	</section>
-
-	<!--aside>
-		<h2>About section</h2>
-		<p>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-	</aside-->
 
 	<footer>
 		<p>Augusto R. M.</p>
